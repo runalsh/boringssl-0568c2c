@@ -1,3 +1,6 @@
+BoringSSL commit 0568c2c from 15-02.2024 before breaking change in С++ libssl library support https://github.com/google/boringssl/commit/c52806157c97105da7fdc2b021d0a0fcd5186bf3
+
+
 # BoringSSL
 
 BoringSSL is a fork of OpenSSL that is designed to meet Google's needs.
