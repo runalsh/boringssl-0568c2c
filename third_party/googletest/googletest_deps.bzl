@@ -16,7 +16,7 @@ def googletest_deps():
     if not native.existing_rule("com_google_absl"):
         http_archive(
             name = "com_google_absl",  # 2023-08-01T14:59:13Z
-            sha256 = "0fb18daae2a73845d3fb6e1d7efbef6517aab2a2e7a3727a72dee9a099b3a7bc",
-            strip_prefix = "abseil-cpp-1a31b81c0a467c1c8e229b9fc172a4eb0db5bd85",
-            urls = ["https://github.com/abseil/abseil-cpp/archive/1a31b81c0a467c1c8e229b9fc172a4eb0db5bd85.zip"],
+            sha256 = "d6b8d2dd6a008fc79c94301656f68297bb667a8b07c692f0ced84224e3a86a3b",
+            strip_prefix = "abseil-cpp-baf07b1f6201e4a6b3f16d87131a558693197c6f",
+            urls = ["https://github.com/abseil/abseil-cpp/archive/baf07b1f6201e4a6b3f16d87131a558693197c6f.zip"],
         )
