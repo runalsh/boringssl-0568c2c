@@ -8,9 +8,9 @@ def googletest_deps():
     if not native.existing_rule("com_googlesource_code_re2"):
         http_archive(
             name = "com_googlesource_code_re2",  # 2023-03-17T11:36:51Z
-            sha256 = "2b2b1ce96aefefb5dc3d32d9265fb0740ce5735bad4e3b74e06aec15b225e326",
-            strip_prefix = "re2-a771d3fbe7c432dc4db68360c6c0004fdde5646b",
-            urls = ["https://github.com/google/re2/archive/a771d3fbe7c432dc4db68360c6c0004fdde5646b.zip"],
+            sha256 = "dfa9d202472f032a95929f7c56e58c2ad21265ef33aa77c2e663e5868ee882bb",
+            strip_prefix = "re2-8e87559194f84d8a880fcd8a8984174df006fb43",
+            urls = ["https://github.com/google/re2/archive/8e87559194f84d8a880fcd8a8984174df006fb43.zip"],
         )
 
     if not native.existing_rule("com_google_absl"):
