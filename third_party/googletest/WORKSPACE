@@ -7,9 +7,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
   name = "rules_python",  # 2023-07-31T20:39:27Z
-  sha256 = "ae6083fdb498af7aaf1c65f8daa5659ff5ef90c14789632115fb878debdd49cc",
-  strip_prefix = "rules_python-975edfe87c447c602a5a4467237a72a3e286ac60",
-  urls = ["https://github.com/bazelbuild/rules_python/archive/975edfe87c447c602a5a4467237a72a3e286ac60.zip"],
+  sha256 = "f7fdf93927a300002aaec9cf42c075171323cdfeec4840bf9c1eb699c17fc503",
+  strip_prefix = "rules_python-b3bf99c76121bf66dd04091bc366da343e79df6c",
+  urls = ["https://github.com/bazelbuild/rules_python/archive/b3bf99c76121bf66dd04091bc366da343e79df6c.zip"],
 )
 
 http_archive(
